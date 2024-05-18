@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Signup */
+.auth-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.auth-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius:20px;
+    padding: 0px 38px;
+    gap: 4rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+
+}
+.auth-section h2{
+    text-align: center;
+}
+
+
+
+.auth-text h2{
+    text-align: left;
+}
+
+.auth-text input{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1.5rem;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+input:focus{
+    outline: none;
+}
+
+.auth-text button{
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background-color: #2ca0c6;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.auth-text h5:hover{
+    text-decoration: underline;
+    cursor: pointer;
+} 
+.auth-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.auth-image img{
+    height: 240px;
+    width: 240px;
+}
+
