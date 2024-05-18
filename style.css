@@ -66,8 +66,15 @@ input:focus{
     align-items: center;
     justify-content: center;
 }
-.auth-image img{
+.auth-image .signup{
     height: 240px;
     width: 240px;
 }
+.auth-image .signin{
+    width: 240px;
+}
+ h5 a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
 
