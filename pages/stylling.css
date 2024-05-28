@@ -1,0 +1,98 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 30%;
+    padding-left: 30%;
+    width: 100%;
+}
+
+input, textarea, select {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1.5rem;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
+.form-group {
+    margin: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.btn {
+    padding: 10px 20px;
+    color: white;
+    background-color: #2ca0c6;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+    background-color: #2189a8;
+}
+
+/* Dashboard */
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.block {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+    border: 1px solid black;
+}
+
+.block h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #2ca0c6;
+}
+
+.task {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.task h4 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.task p {
+    margin: 5px 0;
+}
+
+.task:last-child {
+    border-bottom: none;
+}
